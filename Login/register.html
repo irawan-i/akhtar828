@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Modern - Glassmorphism</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Menggunakan ikon dari Font Awesome -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="login-container">
+        <form class="login-form" id="registerForm">
+            <h2>Silahkan Daftar</h2>
+            <p>Silakan membuat akun Anda</p>
+            
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" placeholder="Nama Pengguna" required>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="email" id="email" placeholder="email" required>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+                        
+            <button type="submit" class="login-btn">Daftar</button>
+            
+            <div class="register-link">
+                Sudah punya akun? <a href="index.html">Masuk sekarang</a>
+            <div class="kanan"><i class="fab fa-gogle"></i> Google</div>
+            </div>
+            <button onclick="location.href='../index.html';">Home</button>
+            <div id="alertBox" class="alert" style="display:none;"></div>
+        </form>
+<script src="js/register.js"></script>   
+</body>
+</html>
